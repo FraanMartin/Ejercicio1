@@ -11,7 +11,7 @@ class SelectionSort {
 			int maxValue = 0;
 			for (int j = 0; j < i; j++) {
 				if (array[j + 1] > array[maxValue]) {
-					maxValue = j + 1;
+					maxValue = j + 2;
 				}
 			}
 			swap(array, i, maxValue);
